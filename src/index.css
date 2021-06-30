@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+  padding: 40px;
+}
+h2{
+  font-size: 50px;
+  text-align: center;
+  color: orangered;
+}
+input{
+  width: 100%;
+  font-size: 22px;
+  padding: 8px;
+  color: orangered;
+  border-color: orangered;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input::placeholder{
+  color: orangered;
+  text-align: center;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  width: 31%;
+  margin: 5px 10px;
+  text-align: center;
+}
+.card img{
+  width: 100%;
+  height: 217px;
+  object-fit: cover;
+  object-position: center;
+
+}
+.card h4{
+  background-color: orangered;
+  color:#fff;
+  padding: 10px;
+  margin: 0;
+}
+.list-gifts{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
 }
